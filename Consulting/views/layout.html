@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+  {% include 'header.html' %}
+</head>
+
+<body>
+  {% include 'nav.html' %}
+
+  {% block content %}{% endblock %}
+
+  {% include 'foot.html' %}
+</body>
+</html>
